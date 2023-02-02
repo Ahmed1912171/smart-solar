@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="">
+    <title>Smart Solar</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<!-- header contains navbar,logo -->
+  <body>
+    <header class="header">
+      <img
+        src="Capture1.PNG"
+        class="logo"
+      />
+      <nav class="navbar">
+        <ul class="navbar-lists">
+          <li><a class="navbar-link home-link" href="#" >Home</a></li>
+          <li><a class="navbar-link about-link" href="#">About</a></li>
+          <li><a class="navbar-link service-link" href="#">Services</a></li>
+          <li><a class="navbar-link portfolio-link" href="#">Sign Up</a></li>
+          <li>
+            <a
+              class="navbar-link"
+              href="#"
+              target="_blank"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+<!-- for mobile navbar button and icon -->
+      <div class="mobile-navbar-btn">
+        <ion-icon
+          class="mobile-nav-icon"
+          name="menu-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+
+        <ion-icon
+          class="mobile-nav-icon"
+          name="close-outline"
+          class="mobile-nav-icon"
+        ></ion-icon>
+      </div>
+    </header>
+
+    <!--for first section -->
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-col">
+          <div class="section-hero-data">
+            <p class="hero-top-data">Save Engery. Save Earth.</p>
+            <h1 class="hero-heading">Smart Solar</h1>
+            <p class="hero-para">
+              Solar energy offers numerous benefits as a clean and renewable source of power. 
+              By harnessing the energy of the sun, solar power reduces dependence on finite resources such as fossil fuels, 
+              leading to a decrease in greenhouse gas emissions.
+               Additionally, solar panels require minimal maintenance and have a long lifespan,
+                making them a cost-effective option in the long run. Furthermore, using solar energy can help 
+                reduce electricity bills and provide a source of power in remote or off-grid locations. 
+                It also has diverse applications, including residential, commercial, and industrial use, 
+                and can even generate electricity on cloudy days.
+            </p>
+            <div>
+              <a href="#" target="_blank" class="btn hireme-btn">Shop From Us</a>
+            </div>
+          </div>
+          <div class="login-form">
+                <h10 >Login</h10>
+                <form>
+                  <label for="username">Username:</label>
+                  <input type="text" id="username">
+                  <label for="password">Password:</label>
+                  <input type="password" id="password">
+                  <button type="submit" name="" onclick="validate()">Submit</button>
+                  <p id="message"></p>
+                </form>
+            </div>
+          </div>
+      
+      </section>
+    </main>
+
+    <!-- for section 2  -->
+    <section class="section-s2 section">
+      <div class="container grid grid-two-col">
+        <div class="bio-image">
+          <img src="stimg7.jpg" alt="bio data image" />
+        </div>
+        <div class="bio-data">
+          <h2 class="common-heading">Smart Solar Technologies</h2>
+          <p>
+            The most Innovative Solar Device In Pakistan
+Electricity is expensive and integrated solar energy systems gives 
+the average homeowner and an entrepreneur an easy way to save for a lifetime.
+Light your home, power your appliances by going solar with Smart Solar. 
+Our systems are designed efficiently to cater to the exclusive needs of our customers.
+<br><br>
+So what are you waiting for?
+<br>
+Cut down on your electricity bill and save up for a lifetime!
+          </p>
+
+        
+          <div class="bio-data-btn">
+            <a class="btn" download> Click Here to Order Your Device </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- for section 3 -->
+   
+      
+      <div class="container grid grid-three-col portfolio-images">
+        <div class="img-ovelay p-btn--1" >
+          <img src="stimg1.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+            <a target="_blank"  class="common-heading">Project 1</a>
+          </div>
+        </div>
+
+        <div class="img-ovelay p-btn--3">
+          <img src="stimg2.jpg" loading="lazy" alt="portfolio images " />
+          <div class="overlay">
+             <a  target="_blank"  class="common-heading">Project 2</a>
+          </div>
+        </div>
+
+        <div class="img-ovelay p-btn--1">
+          <img src="stimg3.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 3</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--1 p-btn--2">
+          <img src="stimg4.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 4</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--2">
+          <img src="stimg5.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 5</a>
+          </div>
+        </div>
+        <div class="img-ovelay p-btn--1">
+          <img src="stimg6.jpg" loading="lazy" alt="portfolio images "  />
+          <div class="overlay">
+             <a href="" target="_blank"  class="common-heading">Project 6</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  for section 4 -->
+
+    <section class="section-work-data section ">
+      <div class="container grid grid-four-col">
+        <div>
+          <h2 data-number="2000" class="counter-numbers">100+</h2>
+          <p>Devices Sold</p>
+        </div>
+        <div>
+          <h2 data-number="6000" class="counter-numbers">90+</h2>
+          <p>Happy clients</p>
+        </div>
+        <div>
+          <h2 data-number="5000" class="counter-numbers">1</h2>
+          <p>SKU</p>
+        </div>
+        <div>
+          <h2 data-number="3000" class="counter-numbers">24/7</h2>
+          <p>real-time monitoring system</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- for section 5 -->
+    <section class="section-services section ">
+      <div class="container">
+        <h2 class="common-heading">What We Offer</h2>
+        <p>
+          An automated IOT based solar power monitoring system that considers automated solar power 
+          monitoring from anyplace over the web. Solar power plants should be checked for ideal power 
+          output. This recovers best power output from power plants while monitoring for broken solar 
+          panels, dust gathered on boards bringing down output and other such issues influencing solar 
+          panels efficacy. Our system continually screens the solar board and transmits the power result to 
+          IOT system over the web. Here we use IOT to transmit solar power readings over the web to IOT 
+          server. It presently shows these boundaries to the client utilizing a viable GUI and furthermore 
+          cautions client when the result falls underneath low power points. 
+        </p>
+      </div>
+      <div class="container grid grid-three-col">
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Web Design</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon name="logo-react" class="service-icon"></ion-icon>
+          <h3>Web development</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Front-End</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Back-end</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Smart Interface</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+        <div class="service-box">
+          <ion-icon class="service-icon" name="desktop-outline"></ion-icon>
+          <h3>Arduino Sensor</h3>
+          <p>
+            To design a real-time system to solve the problems which are faced by solar power system users in 
+            their performance and to get highest output and to monitor power supply.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- for sention 6 -->
+
+    <section class="section section-testimonial ">
+        <div class="container">
+          <h2 class="common-heading">Satisfied Customers</h2>
+        </div>
+          <!-- Slider main container -->
+          <!-- Swiping boxes -->
+    <div class="swiper mySwiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/a.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/b.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/c.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img loading="lazy" src="images/clients/d.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/e.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/f.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/g.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+         <div class="swiper-slide">
+        
+          <div class="swiper-client-msg">
+            <p>Your device is a remarkable piece of technology that has greatly enhanced your daily life. With its advanced features and sleek design, it has made many tasks easier and more convenient.</p>
+          </div>
+          <div class="swiper-client-data grid grid-two-col ">
+            <figure>
+            <img src="images/clients/h.jpg" alt="">
+            </figure>
+            <div class="client-data-details">
+              <p>Ahmed Hasan</p>
+              <p>Fullstack Developer</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide end  -->
+       
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+        </div>
+    </section>
+
+    
+   <!-- last section-->  -->
+
+    <footer class="section section-footer " >
+      <div class="container grid grid-four-col">
+        <div class="f-about">
+          <h3>About</h3>
+          <p>To get highest output and to monitor power supply. It will also show the remaining power and for how long 
+            it will last with current power usage</p>
+        </div>
+
+        <div class="f-links">
+           <h3>Links</h3>
+          <ul>
+            <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">home</a></li>
+             <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">about</a></li>
+              <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">services</a></li>
+               <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">portfolio</a></li>
+              
+                 <li><span><ion-icon name="arrow-forward-outline"></ion-icon></span><a href="#">contact</a></li>
+          </ul>
+        </div>
+
+        <div class="f-address"> 
+          <h3>Have a Questions?</h3>
+          <address>
+            <div>
+              <p>  <span><ion-icon name="location-outline"></ion-icon></span>Karachi, Pakistan </p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="call-outline"></ion-icon></span> <a href="tel:+923328216395">+923328216395 </a></p>
+            </div>
+
+            <div>
+              <p>  <span><ion-icon name="mail-outline"></ion-icon></span> <a href="mailto:ahmedhasan1319@gmail.com">ahmedhasan1319@gmail.com</a> </p>
+            </div>
+          </address>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="f-social-icons">
+          <a href="https://www.instagram.com" target="_blank">
+            <ion-icon class="icons" name="logo-instagram"></ion-icon>
+          </a>
+
+            <a href="https://discord.gg" target="_blank">
+           <ion-icon class="icons" name="logo-discord"></ion-icon>
+          </a>
+
+            <a href="https://www.youtube.com" target="_blank">
+           <ion-icon class="icons" name="logo-youtube"></ion-icon>
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <ion-icon class="icons" name="logo-facebook"></ion-icon>
+           </a>
+        </div>
+
+        <div class="f-credits">
+          <p>Copyright ©2022 All rights reserved | This Website is made By Syed Ahmed Hasan And Muhammed Saeed</p>
+        </div>
+      </div>
+
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
